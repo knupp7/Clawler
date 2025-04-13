@@ -2,11 +2,4 @@
 
 crawl pages
 
-
-naver_blog
-
-velog
-
-tistory
-
-saramin
+naver_blog /velog / tistory / saramin
