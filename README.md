@@ -1,8 +1,12 @@
 # Clawlers
 
-crawl pages\n
+crawl pages
 
-naver_blog\n
-velog\n
-tistory\n
+
+naver_blog
+
+velog
+
+tistory
+
 saramin
