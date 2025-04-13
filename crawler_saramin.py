@@ -36,8 +36,6 @@ def parse_review(box) -> dict:
     
     # info_interview: ul 태그에서 추출
     info_interview = safe_get_text(vt.find("ul"), default="", strip=True, separator=" ")
-    # result와 date: 기존 방식대로 추출
-    
     date = safe_get_text(vt.find("span", class_="txt_date"), default="").strip()
     
     vc = box.find("div", class_="view_cont")
