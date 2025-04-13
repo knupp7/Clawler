@@ -25,9 +25,7 @@ def init_driver():
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--enable-unsafe-swiftshader")
-    # 불필요한 로깅 스위치를 꺼 줍니다
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    # 서비스 레벨 로그를 /dev/null(NUL)로 버립니다
     service = Service(ChromeDriverManager().install(), log_path=os.devnull)
     return webdriver.Chrome(service=service, options=options)
 
