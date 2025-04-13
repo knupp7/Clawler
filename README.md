@@ -1,4 +1,8 @@
 # Clawlers
 
-crawl pages
-naver_blog
+crawl pages/n
+
+naver_blog/n
+velog/n
+tistory/n
+saramin
